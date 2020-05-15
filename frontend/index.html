@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#2f856b">
+        <!--<link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>-->
+        <title>Speaker Diarization & Recognitizion</title>
+
+        <link rel="stylesheet" href="./index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet"> 
+       
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="progressbar.min.js"></script>
+    </head>
+    <body>
+       <!-- <hr/>-->
+        <h1>Who spoke When - Speaker Diarization</h1>
+        <div class="upload-card">
+                
+            <div class="drag-box">
+                <div id="uploadContainer" class="upload-container">
+                    <label for="myFile" id="dropContainer" class="drop-container">
+                        <input type="file" id="myFile" name="myFile" class="file-input" />
+                        <div id="fileName" class="file-name">Upload or Drop your file here</div>
+                    </label>
+                </div>
+            </div>
+            <!--<div  class="button-container">
+                <div onclick="checkDiarize()" class="button">
+		            <span>Diarize</span>
+		            <svg>
+		            <polyline class="o1" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+		            <polyline class="o2" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+	                </svg>
+                </div>
+                <div onclick="checkRecognize()" class="button">
+		            <span>Recognize</span>
+		            <svg>
+		            <polyline class="o1" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+		            <polyline class="o2" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+	                </svg>
+	            </div>
+            </div>-->
+        </div>
+        <!--<div class="footer">
+            <div class="footer-text">Made with love</div>
+        </div>-->
+        <script src="./index.js"></script>
+    </body>
+</html>
