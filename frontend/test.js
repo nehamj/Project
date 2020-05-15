@@ -9,6 +9,9 @@ dropContainer.addEventListener("drop", onDrop, false)
 dropContainer.addEventListener("dragover", onDragOver, false)
 fileInput.addEventListener("change", handleFile)
 
+document.getElementById("checkDiarize").addEventListener("click", checkDiarize)
+document.getElementById("checkRecognize").addEventListener("click", checkRecognize)
+
 var file_status=false
 
 
